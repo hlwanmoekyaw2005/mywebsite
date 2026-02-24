@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hlwan Portfolio</title>
+<title>My Click Game</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="card">
-  <img src="photo.jpg">
-  <h1>Hlwan Moe Kyaw</h1>
-  <p>I am learning programming.</p>
-  <button id="btn">Say Hello</button>
-  <p id="msg"></p>
-</div>
+<h1>Click Game</h1>
+<h2>Score: <span id="score">0</span></h2>
+
+<button id="clickBtn">CLICK ME!</button>
 
 <script>
-document.getElementById("btn").onclick = function() {
-  document.getElementById("msg").innerHTML = "Hello, welcome to my website!";
+let score = 0;
+
+document.getElementById("clickBtn").onclick = function() {
+  score = score + 1;
+  document.getElementById("score").innerHTML = score;
 };
 </script>
 
