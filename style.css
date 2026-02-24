@@ -1,27 +1,14 @@
 body {
-  background: #f0f0f0;
-  font-family: Arial;
   text-align: center;
-}
-
-.card {
-  background: white;
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px gray;
-}
-
-img {
-  width: 150px;
-  border-radius: 50%;
+  font-family: Arial;
+  background: lightblue;
 }
 
 button {
-  padding: 10px 20px;
-  background: blue;
+  font-size: 30px;
+  padding: 20px 40px;
+  background: red;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 15px;
 }
