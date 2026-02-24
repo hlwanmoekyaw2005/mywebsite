@@ -1,0 +1,13 @@
+body {
+  background-color: lightyellow;
+  font-family: Arial;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: green;
+  font-size: 20px;
+}
