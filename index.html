@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Website</title>
+<title>Hlwan Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>My Website</h1>
-
-<button id="mybtn">Click Me</button>
-
-<p id="text"></p>
+<div class="card">
+  <img src="photo.jpg">
+  <h1>Hlwan Moe Kyaw</h1>
+  <p>I am learning programming.</p>
+  <button id="btn">Say Hello</button>
+  <p id="msg"></p>
+</div>
 
 <script>
-document.getElementById("mybtn").onclick = function() {
-  document.getElementById("text").innerHTML = "My name is Hlwan Moe Kyaw";
+document.getElementById("btn").onclick = function() {
+  document.getElementById("msg").innerHTML = "Hello, welcome to my website!";
 };
 </script>
 
