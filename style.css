@@ -11,3 +11,11 @@ p {
   color: green;
   font-size: 20px;
 }
+#mybtn {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
